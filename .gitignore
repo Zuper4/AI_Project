@@ -15,4 +15,7 @@ venv/
 Thumbs.db
 
 # Outputs
-outputs/
+outputs/*
+!outputs/*.png
+!outputs/*.joblib
+
