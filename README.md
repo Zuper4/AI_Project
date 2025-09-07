@@ -1,43 +1,40 @@
-# Building Your First AI Model
+# Iris Classifier Project
 
-## Project Overview
-This project demonstrates the process of building a basic AI/machine learning model using Python. The goal is to apply fundamental data science concepts, from data exploration to model evaluation, on a real dataset.
+## Overview
+This project demonstrates how to build a simple AI model using the Iris dataset from scikit-learn.  
+It follows the required structure for the “Building Your First AI Model” submission.  
 
-## Dataset
-- The dataset used in this project is included in the repository (or specify source if from Kaggle/online).  
-- It contains [brief description of dataset, e.g., number of features, type of data, target variable].
+The project includes:
+- A Jupyter Notebook walkthrough (`notebooks/iris_model.ipynb`)
+- A training script (`src/train.py`) that saves the model and confusion matrix
+- Automated tests (`tests/test_train.py`) to verify outputs
+- A requirements file (`requirements.txt`) for dependencies
 
-## Project Steps
-1. **Data Loading**  
-   Loaded the dataset using pandas and explored its structure.
+---
 
-2. **Data Preprocessing**  
-   - Handled missing values  
-   - Encoded categorical variables  
-   - Scaled/normalized features as necessary
+## Project Structure
 
-3. **Exploratory Data Analysis (EDA)**  
-   - Visualized data distributions and relationships between features  
-   - Generated insights to guide modeling decisions
+iris-classifier/
+├── data/ # empty (Iris dataset is loaded from scikit-learn)
+├── notebooks/
+│ └── iris_model.ipynb # walkthrough notebook
+├── src/
+│ └── train.py # training script
+├── tests/
+│ └── test_train.py # pytest file
+├── outputs/ # generated automatically after running train.py
+│ ├── confusion_matrix.png
+│ └── model.joblib
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 
-4. **Model Building**  
-   - Implemented [specify model, e.g., Decision Tree, Linear Regression, etc.]  
-   - Trained the model on the dataset
-
-5. **Model Evaluation**  
-   - Evaluated performance using metrics such as accuracy, precision, recall, and F1-score  
-   - Visualized performance with confusion matrices or plots
-
-6. **Conclusions**  
-   - Summarized findings and potential improvements  
-   - Discussed model limitations and next steps
-
-## Technologies Used
-- Python 3.x  
-- Jupyter Notebook  
-- Libraries: pandas, numpy, scikit-learn, matplotlib, seaborn
+---
 
 ## How to Run
-1. Clone the repository:  
+
+1. **Clone the repository**
    ```bash
-   git clone https://github.com/ajraouz/DataScience.git
+   git clone https://github.com/yourusername/iris-classifier.git
+   cd iris-classifier
