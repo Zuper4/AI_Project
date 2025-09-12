@@ -1,8 +1,8 @@
 # Iris Classifier Project
 
 ## Overview
-This project demonstrates how to build a simple AI model using the Iris dataset from scikit-learn.  
-It follows the required structure for the “Building Your First AI Model” submission.  
+This project demonstrates training a Decision Tree Classifier on the Iris dataset.  
+The model is trained, saved, and evaluated with a confusion matrix.
 
 The project includes:
 - A Jupyter Notebook walkthrough (`notebooks/iris_model.ipynb`)
